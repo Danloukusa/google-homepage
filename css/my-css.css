@@ -2,14 +2,14 @@
 
 .Left-Side{
     float: left;
-    position: absolute;
+    position: relative;
     top: 25px;
     left: 25px;
 }
 
 .Right-Side{
     float: right;
-    position: absolute;
+    position: relative;
     top: 25px;
     right: 25px;
 }
@@ -27,8 +27,21 @@
     height: 30px;
     display: inline-block;
     vertical-align: middle;
+}
 
+.main{
+    position: relative;
+    margin: auto;
+    top: 250px;
+    left: 850px;
+}
 
+#google{
+    background: url('/google-images.png') 0 -28px;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
 }
 /* CLASS */
 
@@ -41,4 +54,6 @@ a{
     text-decoration: none;
     font-family: arial,sans-serif;
     margin: 0px 10px 0px 10px;
+    color: black;
+    font-size: 12px;
 }
